@@ -4,13 +4,15 @@
   "description": "Some key rules applied to financial scenarios.",
   "main": "index.js",
   "files": [
-    "index.js"
+    "lib"
   ],
   "scripts": {
     "test:cov": "jest --coverage",
     "test": "jest",
     "dev": "npm run build --watch",
-    "build": "arab --preset=cli"
+    "build": "arab --preset=cli",
+    "prepare": "npm run build",
+    "prepublishOnly": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
   },
   "repository": {
     "url": "https://github.com/ulivz/eslint-plugin-financial.git",
@@ -24,7 +26,8 @@
     "arab": "^0.3.0",
     "eslint": "^6.8.0",
     "jest": "24.0.0",
-    "ts-jest": "^25.2.1"
+    "ts-jest": "^25.2.1",
+    "conventional-changelog-cli": "^2.0.31"
   },
   "jest": {
     "testEnvironment": "node"
