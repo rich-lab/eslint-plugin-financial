@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-financial",
   "version": "0.0.0",
-  "description": "Some key rules applied to financial scenarios.",
+  "description": "Awesome ESLint rules for financial scenarios.",
   "main": "index.js",
   "files": [
     "lib"
@@ -15,7 +15,7 @@
     "prepublishOnly": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
   },
   "repository": {
-    "url": "https://github.com/ulivz/eslint-plugin-financial.git",
+    "url": "https://github.com/richlab/eslint-plugin-financial.git",
     "type": "git"
   },
   "author": "ULIVZ <chl814@foxmail.com>",
@@ -31,8 +31,5 @@
   },
   "jest": {
     "testEnvironment": "node"
-  },
-  "publishConfig": {
-    "registry": "http://registry.npm.alibaba-inc.com"
   }
 }
