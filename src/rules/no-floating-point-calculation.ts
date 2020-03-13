@@ -7,16 +7,14 @@ import {
 
 const rule: Rule.RuleModule = {
   meta: {
-    type: "suggestion",
+    type: 'problem',
 
     docs: {
-      description: "disallow unnecessary semicolons",
+      description: "disallow floating point calculation",
       category: "Possible Errors",
       recommended: true,
-      url: "https://eslint.org/docs/rules/no-extra-semi"
-    },
-    fixable: "code",
-    schema: [] // no options
+      url: "https://github.com/ulivz/eslint-plugin-financial/blob/master/docs/rules/no-floating-point-calculation.md"
+    }
   },
 
   // @ts-ignore
