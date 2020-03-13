@@ -1,3 +1,12 @@
+## [0.0.2](https://github.com/richlab/eslint-plugin-financial/compare/v0.0.1...v0.0.2) (2020-03-13)
+
+
+### Bug Fixes
+
+* add entry file. ([e5f6f54](https://github.com/richlab/eslint-plugin-financial/commit/e5f6f547bd05741b29fa253fe28456d9ba76d02e))
+
+
+
 ## [0.0.1](https://github.com/richlab/eslint-plugin-financial/compare/acc4d2e02ebc9fae58ddbb820018787df80b3625...v0.0.1) (2020-03-13)
 
 
