@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-financial",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Awesome ESLint rules for financial scenarios.",
   "main": "lib/index.js",
   "files": [
