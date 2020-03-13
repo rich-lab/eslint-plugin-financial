@@ -1,3 +1,12 @@
+## [0.0.4](https://github.com/richlab/eslint-plugin-financial/compare/v0.0.3...v0.0.4) (2020-03-13)
+
+
+### Bug Fixes
+
+* wrong rule name. ([0a8c2e4](https://github.com/richlab/eslint-plugin-financial/commit/0a8c2e429f870eb87fe594b93e234fb55f86deef))
+
+
+
 ## [0.0.3](https://github.com/richlab/eslint-plugin-financial/compare/v0.0.2...v0.0.3) (2020-03-13)
 
 
