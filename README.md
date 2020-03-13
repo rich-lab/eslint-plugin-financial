@@ -6,17 +6,37 @@
 ## Install
 
 ```bash
-npm install eslint-plugin-financial --save
+npm install eslint-plugin-financial --save-dev
 ```
 
 ## Usage
 
-```js
-const eslintPluginFinance = require('eslint-plugin-financial')
+Configure it in `package.json`.
 
-eslintPluginFinance()
-//=> foo
+```json
+{
+  "name": "my-world",
+  "eslintConfig": {
+    "env": {
+      "es6": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2020,
+      "sourceType": "module"
+    },
+    "plugins": [
+      "financial"
+    ],
+    "rules": {
+      "financial/no-floating-point-calculation": "error"
+    }
+  }
+}
 ```
+
+## Rules
+
+[no-floating-point-calculation](docs/rules/no-floating-point-calculation.md) - Disallow floating point calculation.
 
 ## Contributing
 
