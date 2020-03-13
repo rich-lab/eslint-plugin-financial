@@ -1,0 +1,35 @@
+{
+  "name": "eslint-plugin-financial",
+  "version": "0.0.0",
+  "description": "Some key rules applied to financial scenarios.",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test:cov": "jest --coverage",
+    "test": "jest",
+    "dev": "npm run build --watch",
+    "build": "arab --preset=cli"
+  },
+  "repository": {
+    "url": "https://github.com/ulivz/eslint-plugin-financial.git",
+    "type": "git"
+  },
+  "author": "ULIVZ <chl814@foxmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/eslint": "^6.1.8",
+    "arab": "^0.3.0",
+    "eslint": "^6.8.0",
+    "jest": "24.0.0",
+    "ts-jest": "^25.2.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  }
+}
