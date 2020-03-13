@@ -7,7 +7,7 @@
     "lib"
   ],
   "scripts": {
-    "test:cov": "jest --coverage",
+    "cov": "jest --coverage",
     "test": "jest",
     "dev": "npm run build -- --watch",
     "build": "arab --preset=cli",
