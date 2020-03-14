@@ -27,7 +27,10 @@ const rule: Rule.RuleModule = {
     ]
 
     function lintLiteral(literal: Literal, node: Node): void {
-      if (literal.raw && literal.raw.includes('.')) {
+      if (typeof literal.value === 'number'
+        && literal.raw
+        && literal.raw.includes('.')
+      ) {
         context.report({
           node,
           message: 'Floating point calculation not allowed.'
