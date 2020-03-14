@@ -41,6 +41,9 @@ Since all JavaScript numbers are [IEEE 754 floating point numbers](https://en.wi
 0.1 * '0.2'
 '0.1' * '0.2'
 
+0.1 + null
+0.1 + false
+
 amount + 0.1
 amount - 0.1
 amount * 0.1
