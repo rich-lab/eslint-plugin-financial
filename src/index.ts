@@ -1,6 +1,6 @@
 module.exports = {
   rules: {
-    'no-floating-point-calculation': require('./rules/no-floating-point-calculation').default
+    'no-float-calculation': require('./rules/no-float-calculation').default
   },
 
   configs: {
@@ -9,7 +9,7 @@ module.exports = {
         'financial'
       ],
       rules: {
-        'financial/no-floating-point-calculation': 'error',
+        'financial/no-float-calculation': 'error',
       }
     }
   }

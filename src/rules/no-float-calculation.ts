@@ -26,8 +26,23 @@ const rule: Rule.RuleModule = {
       '/'
     ]
 
+    function isNumberLike(literal: Literal) {
+      if (typeof literal.value === 'number') {
+        return true
+      }
+
+      if (typeof literal.value === 'string') {
+        const num = new Number(literal.value)
+        if (!isNaN(num as number)) {
+          return true
+        }
+      }
+
+      return false
+    }
+
     function lintLiteral(literal: Literal, node: Node): void {
-      if (typeof literal.value === 'number'
+      if (isNumberLike(literal)
         && literal.raw
         && literal.raw.includes('.')
       ) {

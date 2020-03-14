@@ -28,7 +28,7 @@ Configure it in `package.json`.
       "financial"
     ],
     "rules": {
-      "financial/no-floating-point-calculation": "error"
+      "financial/no-float-calculation": "error"
     }
   }
 }
@@ -36,7 +36,7 @@ Configure it in `package.json`.
 
 ## Rules
 
-[no-floating-point-calculation](https://github.com/ulivz/eslint-plugin-financial/blob/master/docs/rules/no-floating-point-calculation.md) - Disallow floating point calculation.
+[no-float-calculation](https://github.com/ulivz/eslint-plugin-financial/blob/master/docs/rules/no-float-calculation.md) - Disallow floating point calculation.
 
 ## Contributing
 
