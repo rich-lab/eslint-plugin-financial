@@ -1,5 +1,3 @@
-require('npmlog/log.js')
-
 module.exports = {
   globals: {
     'ts-jest': {

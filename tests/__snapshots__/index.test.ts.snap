@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`entry 1`] = `
+Object {
+  "configs": Object {
+    "recommended": Object {
+      "plugins": Array [
+        "financial",
+      ],
+      "rules": Object {
+        "financial/no-division": "error",
+        "financial/no-float-calculation": "error",
+      },
+    },
+  },
+  "rules": Object {
+    "no-division": Object {
+      "create": [Function],
+      "meta": Object {
+        "docs": Object {
+          "category": "Possible Errors",
+          "description": "disallow division",
+          "recommended": true,
+          "url": "https://github.com/ulivz/eslint-plugin-financial/blob/master/docs/rules/no-division.md",
+        },
+        "type": "problem",
+      },
+    },
+    "no-float-calculation": Object {
+      "create": [Function],
+      "meta": Object {
+        "docs": Object {
+          "category": "Possible Errors",
+          "description": "disallow floating point calculation",
+          "recommended": true,
+          "url": "https://github.com/ulivz/eslint-plugin-financial/blob/master/docs/rules/no-floating-point-calculation.md",
+        },
+        "type": "problem",
+      },
+    },
+  },
+}
+`;
