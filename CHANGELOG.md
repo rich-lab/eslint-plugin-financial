@@ -1,3 +1,18 @@
+# [0.1.0](https://github.com/richlab/eslint-plugin-financial/compare/v0.0.4...v0.1.0) (2020-03-14)
+
+
+### Bug Fixes
+
+* concat string should be allowed. ([b056263](https://github.com/richlab/eslint-plugin-financial/commit/b0562630ec8bc8bcf2aaa7f79e8815e135183ec3))
+
+
+### Features
+
+* no-division rule ([16dfb7b](https://github.com/richlab/eslint-plugin-financial/commit/16dfb7b6e86c56b47ea47e59d563b28d5e577e30))
+* **$no-float-calculation:** handle scenarios of automatic type conversion ([121ae28](https://github.com/richlab/eslint-plugin-financial/commit/121ae28bb9da3974555a6360459886152bcc5de7))
+
+
+
 ## [0.0.4](https://github.com/richlab/eslint-plugin-financial/compare/v0.0.3...v0.0.4) (2020-03-13)
 
 
