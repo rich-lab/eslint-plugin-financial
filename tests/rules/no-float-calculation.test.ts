@@ -77,7 +77,7 @@ ruleTester.run("no-floating-point-calculation", rule, {
   valid: valids,
   invalid: invalids.map(item => {
     const error = {
-      message: 'Floating point calculation not allowed.',
+      message: 'Disallow floating point calculation.',
       type: 'BinaryExpression'
     }
 

@@ -28,7 +28,8 @@ Configure it in `package.json`.
       "financial"
     ],
     "rules": {
-      "financial/no-float-calculation": "error"
+      "financial/no-float-calculation": "error",
+      "financial/no-division": "error"
     }
   }
 }

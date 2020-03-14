@@ -10,10 +10,10 @@ const rule: Rule.RuleModule = {
     type: 'problem',
 
     docs: {
-      description: "disallow floating point calculation",
-      category: "Possible Errors",
+      description: 'disallow floating point calculation',
+      category: 'Possible Errors',
       recommended: true,
-      url: "https://github.com/ulivz/eslint-plugin-financial/blob/master/docs/rules/no-floating-point-calculation.md"
+      url: 'https://github.com/ulivz/eslint-plugin-financial/blob/master/docs/rules/no-floating-point-calculation.md'
     }
   },
 
@@ -48,7 +48,7 @@ const rule: Rule.RuleModule = {
       ) {
         context.report({
           node,
-          message: 'Floating point calculation not allowed.'
+          message: 'Disallow floating point calculation.'
         })
       }
     }
