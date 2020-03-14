@@ -38,6 +38,7 @@ Configure it in `package.json`.
 ## Rules
 
 [no-float-calculation](https://github.com/ulivz/eslint-plugin-financial/blob/master/docs/rules/no-float-calculation.md) - Disallow floating point calculation.
+[no-division](https://github.com/ulivz/eslint-plugin-financial/blob/master/docs/rules/no-division.md) - Disallow division.
 
 ## Contributing
 
