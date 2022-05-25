@@ -15,7 +15,7 @@
     "prepublishOnly": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
   },
   "repository": {
-    "url": "https://github.com/richlab/eslint-plugin-financial.git",
+    "url": "https://github.com/rich-lab/eslint-plugin-financial.git",
     "type": "git"
   },
   "author": "ULIVZ <chl814@foxmail.com>",
